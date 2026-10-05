@@ -24,7 +24,7 @@ to execute multiple lines of codes'''
 
 #print("Hello,i am", name, ".i am a", profession, "professionally.  and i have around", experience,"years experience with it!")
 
-x =5
+'''x =5
 print("x :",x)
 print(type(x))
 x ="Hello World"
@@ -68,4 +68,66 @@ print("x :",x)
 print(type(x))
 x = None
 print("x :",x)
-print(type(x))
+print(type(x))'''
+
+#operator
+'''x = 10
+y = 15
+z = x + y
+
+print(x+y)
+print(z)
+
+z = x-y
+print(z)
+print(x-y)
+
+z = y-x
+print(z)
+print(y-z)
+
+
+z = x* y
+print(z)
+print(x*y)
+
+z= x/y
+print(z)
+print(x/y)
+
+z=y/x
+print(z)
+print(y/x)'''
+
+'''x=10
+y=14
+
+print(x//y)
+
+print(5%3)  #modules
+
+print(2**3)'''
+
+a= 10
+b=15
+print("a==b", a==b)
+print("a<b", a<b)
+print("a>b",a>b)
+print("a<=b", a<=b)
+print("a.=",a>=b)
+
+
+a=10
+b=12
+c=14
+
+print(a<b and b>a)
+print(a<b or b<c)
+
+print(a is 10)
+print(a is 12)
+
+print(a is not 10)
+print(a is not 12)
+
+
