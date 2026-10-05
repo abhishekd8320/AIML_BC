@@ -108,7 +108,7 @@ print(5%3)  #modules
 
 print(2**3)'''
 
-a= 10
+'''a= 10
 b=15
 print("a==b", a==b)
 print("a<b", a<b)
@@ -128,6 +128,27 @@ print(a is 10)
 print(a is 12)
 
 print(a is not 10)
-print(a is not 12)
+print(a is not 12)'''
 
+#input function
+#input function alway retunrs a string
+
+name = input("please enter your name :")
+print("hello", name)
+
+
+x = input("enter first value")
+y = input("enter second value")
+
+z = int(x) + int(y)
+
+print("sum", z)
+
+
+x= input("first value:")
+y = input("second value")
+
+z = int(x) *  int(y) #multification
+
+print(z) #print the output
 
