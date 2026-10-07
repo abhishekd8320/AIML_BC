@@ -133,7 +133,7 @@ print(a is not 12)'''
 #input function
 #input function alway retunrs a string
 
-name = input("please enter your name :")
+'''name = input("please enter your name :")
 print("hello", name)
 
 
@@ -150,5 +150,84 @@ y = input("second value")
 
 z = int(x) *  int(y) #multification
 
-print(z) #print the output
+print(z) #print the output'''
+
+'''print("2==2 :",2==2)
+print("2==2. :",2==2.)
+
+print("2==2.5:",2==2.5)
+
+print('abc'== 'abc')
+
+abc =2
+print("abc" == abc)'''
+
+#if else
+'''age = 19
+
+if age >= 18:
+    print("eligible")
+
+age = input("Enter age to check")
+if age >=21:
+    print("Eligible for marrige")'''
+
+'''number = int(input("Enter the number"))
+
+if number  >=0:
+    print("Number is possitive")
+else :
+    print("number is negative")'''
+
+
+'''number = int(input("Enter number"))
+if number/2==0:
+    print("It is even")
+else :
+    print("it is odd")'''
+
+'''marks = int(input("Enter the marks"))
+if marks >= 40:
+    print("Passed")
+else :
+    print("Failed")'''
+
+'''number = int(input("enter the number:"))
+if number >=0:
+    print("possitive")
+elif number <0:
+    print("Negative")
+else:
+    print("Zero")'''
+
+'''x = 20
+y = 30
+
+if x>y:
+    print("x is larger")
+else:
+    print("y is larger")'''
+
+#check number is divisible by 3 and 5
+
+'''number = 30
+
+if number/3==0:
+    print("it is divisible by 3")
+elif number/5==0:
+    print("it is divisible by 5")
+else:
+    print("it is not divible by 3 and 5")'''
+
+#check score with grade 
+'''score = 54
+if score>=90:
+    print("Grade A")
+elif score>75:
+    print("Grade B")
+elif score>50:
+    print("Grade c")
+else:
+    print("Grade F")'''
+
 
