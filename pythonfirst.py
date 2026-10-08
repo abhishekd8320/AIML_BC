@@ -172,16 +172,16 @@ age = input("Enter age to check")
 if age >=21:
     print("Eligible for marrige")'''
 
+#Check the number is possitive or negative
 '''number = int(input("Enter the number"))
-
 if number  >=0:
     print("Number is possitive")
 else :
     print("number is negative")'''
 
-
-'''number = int(input("Enter number"))
-if number/2==0:
+#check the number is even or add
+'''number = int(input("Enter number: "))
+if number%2==0:
     print("It is even")
 else :
     print("it is odd")'''
